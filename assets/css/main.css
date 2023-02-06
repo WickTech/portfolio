@@ -3961,7 +3961,7 @@ a:hover i {
 			font-weight:600;
 			transition: 0.5s;
 		}
-		.recur h1:hover{
+		.recur h2:hover{
 			-webkit-text-stroke: 2px #fff;
 			color:transparent;
 		}
