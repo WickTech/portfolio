@@ -3917,6 +3917,10 @@ a:hover i {
 		}
 
 /* Intro */
+@font-face {
+	font-family: 'Air';
+	src: url('assets/fonts/Airstream.woff') format('woff');
+}
 
 	#intro {
 		background-attachment: fixed;
@@ -3956,12 +3960,14 @@ a:hover i {
 			text-align: center;
 		}
 		.recur{
+			font-family: 'Air';
 			font-size : 50px;
 			color: #fff;
 			font-weight:600;
 			transition: 0.5s;
 		}
 		.recur h2:hover{
+			font-family: 'Air';
 			-webkit-text-stroke: 2px #fff;
 			color:transparent;
 		}
