@@ -3606,6 +3606,7 @@ a:hover i {
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
+			justify-content: space-around;
 		}
 
 			body.is-ie #sidebar > .inner {
