@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -3980,6 +3980,13 @@ a:hover i {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+		}
+
+		.hero h1 {
+			font-size: 5em;
+			font-family: 'Bungee Outline', cursive;
+			text-align: center;
+			color: #ffffff;
 		}
 
 		.logo{
