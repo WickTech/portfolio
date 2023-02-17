@@ -4015,3 +4015,28 @@ a:hover i {
 				height: 100%;
 			}
 		}
+
+/*Hover header*/
+@media (prefers-reduced-motion:no-preference) {
+  [word-animation] {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1ch
+  }
+}
+
+@media (prefers-reduced-motion:no-preference) and (hover) {
+  [word-animation=hover] {
+    overflow: hidden;
+    overflow: clip
+  }
+
+  [word-animation=hover]>span {
+    transition: transform .3s ease;
+    cursor: pointer
+  }
+
+  [word-animation=hover]>span:not(:hover) {
+    transform: translateY(50%)
+  }
+}
