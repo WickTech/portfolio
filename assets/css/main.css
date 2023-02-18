@@ -3918,6 +3918,14 @@ a:hover i {
 
 /* Intro */
 
+	@font-face {
+  		font-family: "Cyberpunk";
+  		src: 
+    			url(https://assets.codepen.io/2585/Cyberpunk-Regular.svg#Cyberpunk) format('svg'),
+    			url(https://assets.codepen.io/2585/Cyberpunk-Regular.ttf) format('truetype');
+  			font-weight: normal; 
+  			font-style: normal;
+	}
 	#intro {
 		background-attachment: fixed;
 		background-position: top right;
