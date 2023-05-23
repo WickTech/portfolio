@@ -4027,7 +4027,20 @@ a:hover i {
 				height: 100%;
 			}
 		}
-.card {
+		*,
+		*::before,
+		*::after {
+  		box-sizing: border-box;
+		}
+
+		:root {
+ 			--color-primary: #f6aca2;
+  			--color-secondary: #f49b90;
+  			--color-tertiary: #f28b7d;
+  			--color-quaternary: #f07a6a;
+  			--color-quinary: #ee6352;
+			}
+		.card {
 			display: inline;
 			background-image: url("images/keanu-reeves-glasses-off.gif");
 		    background-size: cover; /* Adjusts the image size to cover the entire page */
