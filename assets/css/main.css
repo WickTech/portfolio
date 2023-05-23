@@ -3996,7 +3996,19 @@ a:hover i {
 			align-content: center;
 			width: 350px;
 		}
-		
+		.atext{
+			text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    		9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  
+		  	font-weight: 400;
+			text-transform: uppercase;
+  
+  			text-align: center;
+  			margin: 0;
+  			color: var(--color-primary);
+  			animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  			letter-spacing: 0.4rem;
+		}
 		.back-video{
 			position: absolute !important;
 			right: 0;
